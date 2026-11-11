@@ -1,0 +1,25 @@
+# Cryptographic keys and identity
+identity.key
+*.key
+
+# Runtime & UI cache
+imgui.ini
+*.log
+*.tmp
+*.bak
+
+# Recordings and captures
+*.mp4
+recordings/
+
+# Visual Studio / IDE temporary files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Windows OS thumbnails and settings
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
