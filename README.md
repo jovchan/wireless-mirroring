@@ -1,4 +1,4 @@
-# AirPlay Windows Receiver
+# NATIVE MIRRORING
 
 Native AirPlay receiver for Windows: screen mirroring, RAOP audio and MP4
 recording, based on [UxPlay](https://github.com/FDH2/UxPlay).
@@ -11,8 +11,8 @@ Latest release: [v0.4.1](https://github.com/moieric11/AirPlay-Windows/releases/t
 
 ## Quick Start
 
-- **Run Control Center (GUI)**: Double-click `Run_Control_Center.bat` to launch the preset manager and receiver launcher.
-- **Run Receiver Directly**: Double-click `Run_Wireless_Mirror.bat` to directly start the receiver in the background.
+- **Run Receiver Directly**: Double-click `Run_Native_Mirroring.bat` (or shortcut `Wireless Mirror.lnk` on your Desktop) to directly start the receiver.
+- **In-App Settings**: Click the **Settings** button in the app's navigation bar to adjust resolution, HEVC, and hardware acceleration on the fly.
 
 ## Project Structure
 
@@ -31,7 +31,7 @@ Latest release: [v0.4.1](https://github.com/moieric11/AirPlay-Windows/releases/t
 │   ├── PROTOCOL.md
 │   └── releases/
 ├── Run_Control_Center.bat        # Root shortcut to launch GUI Control Center
-├── Run_Wireless_Mirror.bat       # Root shortcut to run AirPlay receiver directly
+├── Run_Native_Mirroring.bat      # Root shortcut to run AirPlay receiver directly
 ├── .gitignore                    # Excludes keys, runtime cache, recordings, etc.
 ├── LICENSE                       # GNU General Public License v3.0
 ├── THIRD_PARTY_NOTICES.md        # Open-source third party library notices
@@ -156,7 +156,7 @@ resident path.
 |---|---|
 | `H` | Toggle borderless Hide UI; retain dragging/resizing and video aspect ratio |
 | `F` / `F11` / double-click | Toggle fullscreen |
-| `R` | Start/stop MP4 recording |
+| `D` | Toggle compact status bar (Video FPS, Network BW & PC Latency) |
 | `ESC` | Exit fullscreen, then Hide UI, then quit |
 
 ## HLS and protected content
